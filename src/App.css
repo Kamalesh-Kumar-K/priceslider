@@ -1,0 +1,26 @@
+:root{
+  margin-top: 0px;
+  background-image: url(./assets/bg-pattern.svg);
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  z-index: 1;
+  display: flex;
+    color: hsl(225, 20%, 60%);
+}
+
+.dark-mode {
+  background-color:black;
+  background-image: none;
+}
+.App{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  color: hsl(225, 20%, 60%);
+}
